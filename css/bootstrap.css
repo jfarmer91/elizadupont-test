@@ -1185,7 +1185,8 @@ h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: 500;
+  /*font-weight: 500;*/
+  font-weight: 100; /*edited from original JGF*/
   line-height: 1.1;
   color: inherit;
 }
