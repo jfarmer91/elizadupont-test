@@ -1086,8 +1086,10 @@ body {
   font-weight: 100; /*edited Added this line*/
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
+  /*color: #333;*/
+  color: #9d9d9d; /*jf edit*/
+  /*background-color: #fff;*/
+  background-color: #222; /*jf edit*/
 }
 input,
 button,
@@ -1098,7 +1100,8 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  /*color: #337ab7;*/
+  color: #9d9d9d; /*jf edit*/
   text-decoration: none;
 }
 a:hover,
@@ -1149,6 +1152,7 @@ hr {
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eee;
+  border-color: #9d9d9d; /*jf edit*/
 }
 .sr-only {
   position: absolute;
@@ -4593,7 +4597,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse {
   background-color: #222;
   border-color: #080808;
-  opacity: .5; /*jf edit*/
+  opacity: .9; /*jf edit*/
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
