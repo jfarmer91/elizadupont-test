@@ -38,20 +38,37 @@
 .dropdown-content {
   display: none;
   position:absolute;
+  z-index: 100;
   background-color: #222;
+  border-style: solid;
   border-color: #080808;
-  opacity: .9; /*jf edit*/
+  border-width: 1px 0px 0px 0px;
 }
+
+/*.dropdown-content + a {
+  margin: 110px;
+}*/
 
 .dropdown-content-link {
   display: block;
-  padding: 5px;
+  background-color: #222;
+  border-style: solid;
+  /*border-color: #080808;*/
+  opacity: .9; /*jf edit*/
+  border-color: #080808;
+  border-width: 0px 1px 1px 1px;
+  min-width: 84px;
+  padding: 5px 10px 5px 10px;
 }
 
-ul {
+/*ul {
   list-style: none;
-}
+}*/
 
 .dropbtn:hover + .dropdown-content {
+  display: block;
+}
+
+.dropdown-content:hover {
   display: block;
 }
