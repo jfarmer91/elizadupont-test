@@ -33,3 +33,12 @@
   /*border-color: #080808;*/
   /*opacity: .9;*/
 }
+
+/*New 1 9 2017 */
+.dropdown-content {
+  display: none;
+}
+
+.dropbtn:hover + .dropdown-content {
+  display: block;
+}
