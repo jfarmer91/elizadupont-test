@@ -35,6 +35,21 @@
 }
 
 /*New 1 9 2017 */
+.inverse-dropdown{
+  color: #9d9d9d;
+  background-color: #222;
+  border-color: #080808;
+  &>li>a{
+    color: #999;
+    &:hover{
+      color: #fff;
+      background-color: #000;
+    }
+  }
+}
+
+
+
 .dropdown-content {
   display: none;
   position:absolute;
