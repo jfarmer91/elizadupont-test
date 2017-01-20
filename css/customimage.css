@@ -1,0 +1,12 @@
+.jf-custom-img-section {
+  /*margin-top: calc(20vh + 25px);*/
+  margin-top: calc(20vh);
+  height: 60vh;
+  width: auto;
+  overflow:auto;
+}
+.gallery-img {
+  height: calc(60vh);
+  margin-right: 2px;
+  margin-left: 2px;
+}
