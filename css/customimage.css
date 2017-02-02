@@ -1,10 +1,27 @@
 .jf-custom-img-section {
   /*margin-top: calc(20vh + 25px);*/
+  width: auto;
+  min-width: 50px;
+  position: relative;
+  white-space: nowrap;
   margin-top: calc(20vh);
   height: 60vh;
   width: auto;
-  overflow:auto;
+  overflow-x: scroll;
+  /*overflow-x: hidden;*/
+  overflow-y: hidden;
 }
+
+/*http://stackoverflow.com/questions/32014377/horizontal-scroll-divs-inside-vertical-scroll-div*/
+
+/*http://www.w3schools.com/cssref/css3_pr_overflow-y.asp*/
+
+/*http://stackoverflow.com/questions/13546029/how-to-force-content-to-flow-horizontally-with-scrollbar-instead-of-the-usual-ve*/
+
+/*http://stackoverflow.com/questions/6497373/make-content-horizontally-scroll-inside-a-div*/
+
+/*http://stackoverflow.com/questions/37394228/allow-flex-items-to-keep-fixed-width-and-scroll-horizontally-inside-container*/
+
 .gallery-img {
   height: calc(60vh);
   margin-right: 2px;
