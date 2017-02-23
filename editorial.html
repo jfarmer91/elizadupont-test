@@ -82,8 +82,8 @@
 
     <!-- Trial Custom Carousel -->
     <header id="concert-photo-section" class="jf-custom-img-section">
-      <img src="../img/Gallery/Editorial/Editorial1.jpg" class="gallery-img" alt="concert-image" height="450px">
-      <img src="../img/Gallery/Editorial/Editorial2.jpg" class="gallery-img" alt="concert-image" height="450px">
+      <img id="Ed1" src="../img/Gallery/Editorial/Editorial1.jpg" class="gallery-img" alt="concert-image" height="450px">
+      <img id="Ed2" src="../img/Gallery/Editorial/Editorial2.jpg" class="gallery-img" alt="concert-image" height="450px">
       <img src="../img/Gallery/Editorial/Editorial3.jpg" class="gallery-img" alt="concert-image" height="450px">
       <img src="../img/Gallery/Editorial/Editorial4.jpg" class="gallery-img" alt="concert-image" height="450px">
       <img src="../img/Gallery/Editorial/Editorial5.jpg" class="gallery-img" alt="concert-image" height="450px">
@@ -150,6 +150,19 @@
         interval: 5000 //changes the speed
     })
     </script>
+
+    <!-- <script>
+      $(window).load(function () {
+          //normally you'd wait for document.ready, but you'd likely to want to wait
+          //for images to load in case they reflow the page
+          $('header').delay(5000) //wait 5 seconds
+              .animate({
+                  //animate jQuery's custom "scrollTop" style
+                  //grab the value as the offset of #second from the top of the page
+                  'scrollLeft': $('#Ed2').offset().top
+              }, 300); //animate over 300ms, change this to however long you want it to animate for
+      });
+    </script> -->
 
 </body>
 
