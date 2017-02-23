@@ -92,3 +92,16 @@
 .paragraph-text {
   font-size: 16px;
 }
+
+/*jf added 2/23/17*/
+.paragraph-div {
+  background-color: rgba(34, 34, 34, 0.7);
+  /*background-color: #222;
+  opacity: .5;*/
+}
+.text-only-page {
+  margin-top: 30vh;
+}
+a.text-link {
+  color:#ffe6cc;
+}
