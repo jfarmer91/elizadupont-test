@@ -4,8 +4,8 @@
   min-width: 50px;
   position: relative;
   white-space: nowrap;
-  margin-top: calc(20vh);
-  height: 60vh;
+  margin-top: calc(10vh);
+  height: 80vh;
   width: auto;
   overflow-x: scroll;
   /*overflow-x: hidden;*/
@@ -23,7 +23,7 @@
 /*http://stackoverflow.com/questions/37394228/allow-flex-items-to-keep-fixed-width-and-scroll-horizontally-inside-container*/
 
 .gallery-img {
-  height: calc(60vh);
+  height: calc(80vh);
   margin-right: 2px;
   margin-left: 2px;
 }
